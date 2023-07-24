@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/merlin.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/categories.css">
+</head> 
+<style>
+  .luffy{
+    height:50px;
+    width:50px;
+    margin:2px;
+    padding:2px;
+    border-radius: 50%;
+  }
+  #navbarstyle{
+    background-color: transparent !important;
+  }
+  .list li a{
+    text-decoration: none;
+    color: azure;
+  }
+  body{
+    background-color: black;
+  }
+  .navbar-brand{
+    font-family:"Lucida handwritting",cursive ;
+    color: rgb(46, 216, 216);
+    font-size: 30px;
+
+  }
+#navbarstyle{
+  height:65px;
+
+background-color: rgba(0, 0, 0, 0.41) !important;
+}
+.products{
+  
+  background-color: gray;
+}
+.pictures{
+  margin:1px;
+  padding:1px;
+  border-radius: 8%;
+  color:black;
+}
+.money{
+  margin:5px;
+  color:black;
+}
+#main-index-img{
+  margin-top: -12px;
+  background-position: center;
+  background-attachment: fixed;
+  height:100vh;
+  width:100vw;
+}
+.content1{
+  
+  font-size: 50px;
+}
+.div1{
+    margin-left: auto !important;
+}
+
+
+</style>
+<body>  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg rounded fixed-top" id="navbarstyle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Animex <img class="luffy" src="lufy.jpg"></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  m-1 rounded   " id="navbarText" >
+        <ul class="navbar-nav  mb-1 mb-lg-0  rounded  div1" >
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex " role="search">
+          <input class="form-control me-4 " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <span class="navbar-text">
+          <form class=" " role="search">
+            <button class="btn btn-outline-light m-4" type="submit">Login</button></form>
+        </span>
+      </div>
+    </div>
+  </nav>
+    <!-- navbar -->
+
+    <!-- ALL THE LINKS WILL GO TO Something : Cards -->
+      <div class="index-main-img m-2 justify-content-center d-flex ">
+        <a href="#"><img id="main-index-img" src="https://wallpapers.com/images/featured/zoro-pictures-8nv0c0nb7rijf6z2.jpg" alt="" srcset=""></a> 
+      </div>
+      
+      <br>
+
+      <section class="products" id="products">
+
+     <div class="products1 d-flex justify-content-center flex-wrap bg-dark  ">
+      <div class="card m-3 p-2 " style="width: 18rem;">
+        <div class="card-body">
+          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREQSiyCzyo2KYKVPWR_4TSQSC4WHkpKSmZQUw9tOCLtdejsogt" class="pictures">
+          <h3><span class="money"><s>₹1000</s> ₹950</span> </h3>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card m-3 p-2" style="width: 18rem;">
+        <div class="card-body">
+          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREQSiyCzyo2KYKVPWR_4TSQSC4WHkpKSmZQUw9tOCLtdejsogt" class="pictures">
+          <h3><span class="money"><s>₹1000</s> ₹950</span> </h3>
+          
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card m-3 p-2" style="width: 18rem;">
+        <div class="card-body">
+          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREQSiyCzyo2KYKVPWR_4TSQSC4WHkpKSmZQUw9tOCLtdejsogt" class="pictures">
+          <h3><span class="money"><s>₹1000</s> ₹950</span> </h3>
+          
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      </div>
+      </section>
+      <!--cards end-->
+      <br><br>
+      <!--contact us-->
+      <section class="Contact" id="contact">
+        <div class="contact-content">
+      
+          <h2 class="text-center m-2 p-4 text-white " id="content1">contact us</h2>
+           
+          <div class="form-content">
+      
+            <form>
+              <div class="m-2 p-3 text-center">
+                <input type="text" placeholder="Enter you name" class="textinput m-2"></br>
+                <input type="email" placeholder="Enter your email" class="textinput m-2"></br>
+                <textarea cols="21" class="m-2 textarea" >
+               
+                </textarea></br>
+      
+                <button class="btn btn-outline-light m-2">Submit</button>
+              </div>
+            </form>
+          </div>
+      
+        </div>
+      
+      </section>
+      
+      
+      <!--contact us end-->
+    
+      <br><br>
+
+    <!-- FOOTER -->
+    <div class="Shortcuts  d-flex justify-content-between ">
+      <div class="shortcuts">
+      <h5>Shortcut Links</h5>
+      </div>
+      <div>
+        <ul type="none"  class="list">
+          <li><a href="#" >Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">contact</a></li>
+       </ul>
+      </div>
+    
+     <div>
+      <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+        marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?width=793&amp;height=400&amp;hl=en&amp;q=madurai&amp;t=h&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style>
+         </div>
+     </div>
+        
+  
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+  </body>
+  
+</html>
